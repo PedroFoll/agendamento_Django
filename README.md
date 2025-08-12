@@ -45,16 +45,23 @@ cd agendamento_Django
 
         pip install django==5.2.5
 
-4. **Realize as migrações**
+4. **Acesse a pasta "agenda"**
+
+        cd .\agenda\
+#### Essa é a posta onde está o arquivo manage.py, responsável pelos comandos utilizados para inicio do servidor.
+
+5. **Realize as migrações**
 
         python manage.py makemigrations
         python manage.py migrate
 
-5. **Execute o Servidor**
+#### Esse passo só é necessário, caso você não tenha o dbsqlite baixado junto do projeto.
+
+6. **Execute o Servidor**
 
         python manage.py runserver
 
-### Após todos esses passos, será possível acessar às URLS disponibilizadas
+#### Após todos esses passos, será possível acessar às URLS disponibilizadas
 
 1. **A url padrão do projeto é:**
 
